@@ -95,7 +95,6 @@ class Program
     {
         try
         {
-            throw new Exception();
             if (fileOut == null)
             {
                 var autoOutFilePath = Path.GetFileNameWithoutExtension(fileIn.Name) + ".json";
